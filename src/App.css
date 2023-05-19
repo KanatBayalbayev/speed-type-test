@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.main-container {
+  border: none;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 14px 2px rgba(102, 100, 100, 0.77);
+  -webkit-box-shadow: 1px 1px 14px 2px rgba(102, 100, 100, 0.77);
+  -moz-box-shadow: 1px 1px 14px 2px rgba(102, 100, 100, 0.77);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container button {
+  width: 150px;
+  padding: 12px;
+  border: none;
+  background-color: #1565c0;
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container .info-container {
+  margin-bottom: 70px;
+  margin-left: 370px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: end;
 }
-
-.App-link {
-  color: #61dafb;
+.main-container .info-container p {
+  font-size: 22px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-container .text-test-container {
+  margin-bottom: 20px;
 }
+.main-container .text-test-container .text-test {
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.main-container .text-test-container .isRight {
+  color: rgb(19, 198, 19);
+}
+.main-container .text-test-container .isWrong {
+  color: red;
+}
+.main-container .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.main-container .input-container .textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
+  padding: 10px;
+  font-size: 20px;
+}
+.main-container .input-container .active {
+  background-color: white;
+}
+.main-container .input-container .isFinished {
+  position: absolute;
+  margin-top: 150px;
+  margin-right: 220px;
+}/*# sourceMappingURL=App.css.map */
